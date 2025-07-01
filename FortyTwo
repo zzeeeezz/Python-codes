@@ -1,0 +1,10 @@
+number = input("Enter number: ")
+text = number.strip().lower()
+if text == "42":
+    print("Yes")
+elif text == "forty-two":
+    print("Yes")
+elif text == "forty two":
+    print("Yes")
+else:
+    print("No")
